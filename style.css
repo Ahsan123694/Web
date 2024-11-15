@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Shop</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header */
+        h1 {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Paragraphs */
+        p {
+            margin: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Links */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* Lists */
+        ol, ul {
+            margin: 20px;
+            padding-left: 40px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        ul li ul {
+            margin-top: 5px;
+            margin-left: 20px;
+            list-style-type: circle;
+        }
+
+        /* Images */
+        img {
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Sections */
+        h3, h2 {
+            text-align: center;
+            color: #222;
+        }
+
+        /* Form Styles */
+        input[type="text"], input[type="email"], input[type="date"] {
+            width: 300px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="checkbox"], input[type="radio"] {
+            margin: 10px 5px 10px 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        /* File Upload */
+        input[type="file"] {
+            margin: 20px 0;
+        }
+
+        /* Buttons */
+        button, input[type="submit"] {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover, input[type="submit"]:hover {
+            background-color: #444;
+        }
+
+        /* Contact Section */
+        .contact p, iframe {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Introduction -->
+    <h1>Modern Wall Art Canvas</h1>
+    <p>Bring a touch of elegance and creativity to your living space with our modern wall art canvas collection.</p>
+
+    <!-- You Can Get Section -->
+    <h3>You Can Get</h3>
+    <ol>
+        <li><a href="https://decorate.pk/products/colorful-abstract-painting" target="_blank">Abstract canvas</a></li>
+        <li><a href="https://chrisfabregasfineartprints.com/products/lion-motivational-canvas" target="_blank">Motivational canvas</a></li>
+        <li><a href="https://www.icanvas.com/canvas-art-prints/style/pop-art?product=canvas&sort=popular" target="_blank">Pop art canvas</a></li>
+        <li><a href="https://medium.com/@Wallartaccents.01/how-to-create-a-modern-and-minimalist-home-with-abstract-canvas-wall-art-d3836124e927" target="_blank">Minimalist canvas</a></li>
+    </ol>
+
+    <!-- Gallery -->
+    <h1>Gallery</h1>
+    <div style="text-align: center;">
+        <img src="Abstract.webp" alt="Abstract canvas" width="300">
+        <img src="Map.jpg" alt="Map" width="300">
+        <img src="Lion.jpg" alt="Lion" width="300">
+        <img src="Eye.jpg" alt="Eye" width="300">
+    </div>
+    <p>Abstract canvas art is a form of painting where the artist does not attempt to represent.</p>
+
+    <!-- Reviews -->
+    <h1>Your Review</h1>
+    <form action="#">
+        <label for="Name">Name</label>
+        <input type="text" name="Name" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required><br>
+
+        <label for="Review">Review</label>
+        <input type="text" name="Review" size="100"><br>
+
+        <p>What did you order?</p>
+        <input type="checkbox" name="Service" value="Abstract canvas"> Abstract canvas<br>
+        <input type="checkbox" name="Service" value="Motivational canvas"> Motivational canvas<br>
+        <input type="checkbox" name="Service" value="Pop art canvas"> Pop art canvas<br>
+        <input type="checkbox" name="Service" value="Minimalist canvas"> Minimalist canvas<br>
+
+        <p>Rate the Quality:</p>
+        <input type="radio" name="rating" value="Bad"> Bad
+        <input type="radio" name="rating" value="Perfect"> Perfect<br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Contact Section -->
+    <h1>Contact Us</h1>
+    <p>Phone: 111 22 3333</p>
+    <p>Email: <a href="mailto:Canvasshop896@gmail.com">Canvasshop896@gmail.com</a></p>
+    <p><iframe src="https://www.google.com/maps/embed." width="600" height="450" style="border: 0;"></iframe></p>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Canvas Shop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
